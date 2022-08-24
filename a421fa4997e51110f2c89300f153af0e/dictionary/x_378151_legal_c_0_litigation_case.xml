@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Motif" max_length="40" name="x_378151_legal_c_0_litigation_case" type="collection">
+        <element label="Description" max_length="500" name="description" type="string"/>
+        <element label="Motif" max_length="32" name="motif" reference="x_378151_legal_c_0_choice" type="reference"/>
+        <element label="Motif Number" max_length="40" name="motiv_number" type="integer"/>
+        <element label="Report" max_length="32" name="report" reference="x_378151_legal_c_0_report" type="reference"/>
+        <index name="index">
+            <element name="report"/>
+        </index>
+        <index name="index2">
+            <element name="motif"/>
+        </index>
+    </element>
+</database>

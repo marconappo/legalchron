@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Litigation Case" section_id="8e28878197691110f2c89300f153afa5" sys_domain="global" table="x_378151_legal_c_0_report" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>litigation_case_type</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-24 22:37:04</sys_created_on>
+            <sys_id>a938c78197691110f2c89300f153af24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Litigation Case" display_value="Litigation Case" name="x_378151_legal_c_0_report" sys_domain="global" view="Default view">8e28878197691110f2c89300f153afa5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-24 22:37:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reference</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-24 22:37:04</sys_created_on>
+            <sys_id>2d38c78197691110f2c89300f153af24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Litigation Case" display_value="Litigation Case" name="x_378151_legal_c_0_report" sys_domain="global" view="Default view">8e28878197691110f2c89300f153afa5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-24 22:37:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Litigation Case</caption>
+            <header>false</header>
+            <name>x_378151_legal_c_0_report</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-24 22:36:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e28878197691110f2c89300f153afa5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_378151_legal_c_0_report</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Legal Chron" source="x_378151_legal_c_0">a421fa4997e51110f2c89300f153af0e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Legal Chron">a421fa4997e51110f2c89300f153af0e</sys_scope>
+            <sys_update_name>sys_ui_section_8e28878197691110f2c89300f153afa5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-24 22:36:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

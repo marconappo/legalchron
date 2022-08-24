@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_378151_legal_c_0.admin" name="x_378151_legal_c_0.admin">a021fa4997e51110f2c89300f153af14</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 20:56:14</sys_created_on>
+        <sys_id>ec21fa4997e51110f2c89300f153af15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a021fa4997e51110f2c89300f153af14</sys_name>
+        <sys_package display_value="Legal Chron" source="x_378151_legal_c_0">a421fa4997e51110f2c89300f153af0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Chron">a421fa4997e51110f2c89300f153af0e</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ec21fa4997e51110f2c89300f153af15</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-24 20:56:14</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

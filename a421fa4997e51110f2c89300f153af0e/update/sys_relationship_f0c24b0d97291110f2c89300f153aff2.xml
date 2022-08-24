@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_378151_legal_c_0_report</basic_apply_to>
+        <basic_query_from>x_378151_legal_c_0_litigation_case</basic_query_from>
+        <insert_callback/>
+        <name>Litigation Case</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery('report', parent.sys_id);]]></query_with>
+        <reference_field>report</reference_field>
+        <related_list/>
+        <simple_reference>true</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 22:13:51</sys_created_on>
+        <sys_id>f0c24b0d97291110f2c89300f153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Litigation Case</sys_name>
+        <sys_package display_value="Legal Chron" source="x_378151_legal_c_0">a421fa4997e51110f2c89300f153af0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Chron">a421fa4997e51110f2c89300f153af0e</sys_scope>
+        <sys_update_name>sys_relationship_f0c24b0d97291110f2c89300f153aff2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-24 22:13:51</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=f0c24b0d97291110f2c89300f153aff2"/>
+</record_update>

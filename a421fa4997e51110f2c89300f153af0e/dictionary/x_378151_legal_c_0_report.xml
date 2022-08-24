@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Report" max_length="40" name="x_378151_legal_c_0_report" type="collection">
+        <element attributes="ref_sequence=sequence" label="Complaint related to" max_length="32" name="complaint_related_to" reference="x_378151_legal_c_0_choice" reference_qual="element=complaint_related_to^EQ" reference_qual_condition="element=complaint_related_to^EQ" type="reference"/>
+        <element label="Description" max_length="500" name="description" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="ref_sequence=sequence" label="Litigation Case Type" max_length="32" name="litigation_case_type" reference="x_378151_legal_c_0_choice" reference_qual="table=x_378151_legal_c_0_report^element=litigation_case_type^EQ" reference_qual_condition="table=x_378151_legal_c_0_report^element=litigation_case_type^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Organized by EPSO" max_length="40" name="organized_by_epso" type="boolean"/>
+        <element label="Reference" max_length="40" name="reference" type="string"/>
+        <element attributes="ref_sequence=sequence" label="Stage" max_length="32" name="stage" reference="x_378151_legal_c_0_choice" reference_qual="element=stage^EQ" reference_qual_condition="element=stage^EQ" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false,ref_sequence=sequence" label="Type" max_length="32" name="type" reference="x_378151_legal_c_0_choice" reference_qual="table=x_378151_legal_c_0_report^element=type^EQ" reference_qual_condition="table=x_378151_legal_c_0_report^element=type^EQ" type="reference"/>
+        <index name="index">
+            <element name="complaint_related_to"/>
+        </index>
+        <index name="index2">
+            <element name="stage"/>
+        </index>
+        <index name="index3">
+            <element name="litigation_case_type"/>
+        </index>
+        <index name="index4">
+            <element name="type"/>
+        </index>
+        <index name="index5">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
