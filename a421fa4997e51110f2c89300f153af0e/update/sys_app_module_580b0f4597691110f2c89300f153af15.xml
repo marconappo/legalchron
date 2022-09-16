@@ -15,7 +15,7 @@
         <name>x_378151_legal_c_0_choice</name>
         <order>2</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>x_378151_legal_c_0_choice_list.do?sysparm_query=GROUPBYelement</query>
         <report/>
         <roles>x_378151_legal_c_0.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>580b0f4597691110f2c89300f153af15</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Dictionaries</sys_name>
         <sys_overrides/>
         <sys_package display_value="Legal Chron" source="x_378151_legal_c_0">a421fa4997e51110f2c89300f153af0e</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Legal Chron">a421fa4997e51110f2c89300f153af0e</sys_scope>
         <sys_update_name>sys_app_module_580b0f4597691110f2c89300f153af15</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-24 22:49:54</sys_updated_on>
+        <sys_updated_on>2022-08-24 23:05:47</sys_updated_on>
         <timeline_page/>
         <title>Dictionaries</title>
         <uncancelable>false</uncancelable>
