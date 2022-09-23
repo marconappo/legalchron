@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Report" max_length="40" name="x_378151_legal_c_0_report" type="collection">
         <element attributes="ref_sequence=sequence" label="Complaint related to" max_length="32" name="complaint_related_to" reference="x_378151_legal_c_0_choice" reference_qual="element=complaint_related_to^EQ" reference_qual_condition="element=complaint_related_to^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Demandeur" max_length="32" name="demandeur" reference="sys_user" type="reference"/>
         <element label="Description" max_length="500" name="description" type="string"/>
         <element label="First Name" max_length="40" name="first_name" type="string"/>
         <element label="Last Name" max_length="40" name="last_name" type="string"/>
@@ -19,6 +20,9 @@
         </index>
         <index name="index3">
             <element name="litigation_case_type"/>
+        </index>
+        <index name="index4">
+            <element name="demandeur"/>
         </index>
         <index name="index4">
             <element name="type"/>

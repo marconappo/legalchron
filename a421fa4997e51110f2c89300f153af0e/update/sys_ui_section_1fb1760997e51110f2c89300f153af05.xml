@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Demandeur" section_id="1fb1760997e51110f2c89300f153af05" sys_domain="global" table="x_378151_legal_c_0_report" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>first_name</element>
+            <element>demandeur</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-24 22:20:37</sys_created_on>
-            <sys_id>a0744b8d97291110f2c89300f153aff3</sys_id>
+            <sys_created_on>2022-09-23 08:39:40</sys_created_on>
+            <sys_id>23382a26474211107443f2e7536d43f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Demandeur" display_value="Demandeur" name="x_378151_legal_c_0_report" sys_domain="global" view="Default view">1fb1760997e51110f2c89300f153af05</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-24 22:20:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>last_name</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-24 22:20:37</sys_created_on>
-            <sys_id>24744b8d97291110f2c89300f153aff3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Demandeur" display_value="Demandeur" name="x_378151_legal_c_0_report" sys_domain="global" view="Default view">1fb1760997e51110f2c89300f153af05</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-24 22:20:37</sys_updated_on>
+            <sys_updated_on>2022-09-23 08:39:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
